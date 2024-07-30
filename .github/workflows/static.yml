@@ -3,7 +3,11 @@ name: Deploy static content to Pages
 
 on:
   # Runs on pushes targeting the default branch
+<<<<<<< HEAD
    pull_request:
+=======
+  pull_request:
+>>>>>>> 29b12151f474a308b9fe581fbd1ceb8a1e0c22b2
     branches: ["main", "DevTeste"]
   label:
     types: [created, edited]
